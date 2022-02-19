@@ -23,11 +23,12 @@
   font-size: 100px;
 }
 
-.headerImg{
-    width: fit-content;
-    margin-left: 35%;
-    height: 300px;
-    margin-top: 90px;
-    object-fit: cover;
-    align-items: center;
+
+.headerImage {
+  width: fit-content;
+  height: 300px;
+  margin-top: 70px;
+  object-fit: cover;
+  align-items: center;
+  margin-left: 35%;
 }

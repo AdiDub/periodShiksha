@@ -8,8 +8,11 @@
       rgba(255, 255, 255, 0.5),
       rgba(255, 255, 255, 0.5)
     ),
-    url("https://images.pexels.com/photos/768473/pexels-photo-768473.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
-  background-size: cover;
+    /* url("https://images.pexels.com/photos/768473/pexels-photo-768473.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"); */
+    url("https://res.cloudinary.com/dt0nu7zgk/image/upload/v1645295995/WhatsApp_Image_2022-02-20_at_12.08.36_AM_vc8uwy.jpg");
+    background-size: 1300px 550px;
+
+  
 }
 
 .loginTitle {
@@ -18,8 +21,13 @@
 
 .loginForm {
   margin-top: 20px;
+  padding: 30px 30px ;
   display: flex;
   flex-direction: column;
+  border-radius: 38px;
+background: #EBCED0;
+box-shadow:  16px 16px 41px #aaaaaa,
+             -16px -16px 41px #ffffff;
 }
 
 .loginForm > label {
@@ -30,6 +38,7 @@
   padding: 10px;
   background-color: white;
   border: none;
+  border-radius: 10px;
 }
 
 .loginButton {

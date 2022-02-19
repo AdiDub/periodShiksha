@@ -99,5 +99,5 @@
 }
 
 .article-container {
-  display: flex;
+  display: block;
 }

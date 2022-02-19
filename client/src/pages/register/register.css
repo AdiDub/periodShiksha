@@ -18,8 +18,13 @@
 
 .registerForm {
   margin-top: 20px;
+  padding: 30px 30px;
   display: flex;
   flex-direction: column;
+  border-radius: 38px;
+  background: #EBCED0;
+  box-shadow:  16px 16px 41px #aaaaaa,
+              -16px -16px 41px #ffffff;
 }
 
 .registerForm > label {

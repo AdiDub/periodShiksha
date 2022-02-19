@@ -47,9 +47,9 @@ export default function SinglePost() {
   };
   const disqusShortname = "periodshala"
     const disqusConfig = {
-      url: "http://localhost:3000",
-      identifier: "article-id",
-      title: "Title of Your Article"
+      url: `http://localhost:3000/${path}`,
+      identifier: `/posts/${post._id}`,
+      title: `${title}`
     }
   return (
     <>
@@ -111,9 +111,9 @@ export default function SinglePost() {
       </div>
       <div className="article-container">
 
-        <h1>Page Title</h1>
+        <h1>Discuss</h1>
 
-        <p>Page content.</p>
+        <p>Your Opinion.</p>
 
         <Disqus.DiscussionEmbed
           shortname={disqusShortname}
